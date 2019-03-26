@@ -1,25 +1,25 @@
 version=53;
 class EditorData
 {
-	moveGridStep=1;
+	moveGridStep=0.5;
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=33;
+	toggles=37;
 	class ItemIDProvider
 	{
-		nextID=201;
+		nextID=203;
 	};
 	class LayerIndexProvider
 	{
-		nextID=110;
+		nextID=120;
 	};
 	class Camera
 	{
-		pos[]={93.793221,7.4994154,118.193};
-		dir[]={-0.6136834,-0.19695525,0.76475698};
-		up[]={-0.12340293,0.98021901,0.15377937};
-		aside[]={0.78003567,2.3765024e-006,0.62595725};
+		pos[]={58.785439,15.764482,118.70542};
+		dir[]={0.83374465,-0.52146327,-0.18216883};
+		up[]={0.50953227,0.85301977,-0.11132793};
+		aside[]={-0.2134798,-7.8818994e-007,-0.97708672};
 	};
 };
 binarizationWanted=0;
@@ -25143,7 +25143,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={89.65197,7.1526623,123.87186};
+				position[]={89.652,7.1526623,123.872};
 				angles[]={0,3.1415927,0};
 			};
 			side="Empty";
@@ -25211,7 +25211,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_m16a4_carryhandle"",""rhs_weap_M136_hedp""],[2,3]],[[""rhs_200rnd_556x45_M_SAW"",""HandGrenade"",""SmokeShell"",""1Rnd_HE_Grenade_shell"",""16Rnd_9x21_Mag"",""Chemlight_blue"",""Chemlight_green"",""ACE_Chemlight_Orange"",""Chemlight_red"",""ACE_Chemlight_White"",""Chemlight_yellow"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""ACE_HandFlare_White"",""ACE_HandFlare_Yellow"",""SmokeShellBlue"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellPurple"",""SmokeShellRed"",""SmokeShellYellow"",""SatchelCharge_Remote_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""ACE_M84"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""Laserbatteries"",""130Rnd_338_Mag"",""Titan_AT"",""rhs_mag_an_m14_th3"",""APERSMineDispenser_Mag"",""ATMine_Range_Mag"",""rhs_mag_maaws_HEAT""],[7,20,20,20,6,3,10,3,3,3,3,9,3,3,3,3,8,8,8,8,8,8,3,5,10,30,5,6,3,6,1,3,8]],[[""Laserdesignator_03"",""Rangefinder"",""ItemRadio"",""ToolKit"",""H_Watchcap_blk"",""ACE_CableTie"",""ACE_EntrenchingTool"",""ACE_IR_Strobe_Item"",""ACRE_PRC343"",""ACE_Fortify"",""ACE_RangeTable_82mm"",""ACE_RangeCard""],[1,2,5,2,1,5,1,3,5,2,5,5]],[[""B_Carryall_oli"",""B_Kitbag_rgr""],[1,1]]],false]";
+							value="[[[[""rhs_weap_m16a4_carryhandle"",""rhs_weap_M136_hedp""],[1,2]],[[""rhs_200rnd_556x45_M_SAW"",""HandGrenade"",""SmokeShell"",""1Rnd_HE_Grenade_shell"",""16Rnd_9x21_Mag"",""Chemlight_blue"",""Chemlight_green"",""ACE_Chemlight_Orange"",""Chemlight_red"",""ACE_Chemlight_White"",""Chemlight_yellow"",""DemoCharge_Remote_Mag"",""ACE_HandFlare_Green"",""ACE_HandFlare_Red"",""ACE_HandFlare_White"",""ACE_HandFlare_Yellow"",""SmokeShellBlue"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellPurple"",""SmokeShellRed"",""SmokeShellYellow"",""SatchelCharge_Remote_Mag"",""ClaymoreDirectionalMine_Remote_Mag"",""ACE_M84"",""rhs_mag_30Rnd_556x45_M855A1_Stanag"",""Laserbatteries"",""130Rnd_338_Mag"",""Titan_AT"",""APERSMineDispenser_Mag"",""ATMine_Range_Mag"",""rhs_mag_maaws_HEAT"",""rhsusf_200rnd_556x45_mixed_box""],[7,8,10,10,5,3,5,3,3,3,3,5,3,3,3,3,8,8,8,8,8,8,1,3,5,20,3,5,2,1,2,5,2]],[[""Laserdesignator_03"",""Rangefinder"",""ItemRadio"",""ToolKit"",""H_Watchcap_blk"",""ACE_CableTie"",""ACE_EntrenchingTool"",""ACE_IR_Strobe_Item"",""ACRE_PRC343"",""ACE_RangeTable_82mm"",""ACE_RangeCard""],[1,2,5,2,1,5,1,3,3,3,5]],[[""B_Carryall_oli"",""B_Kitbag_rgr""],[1,1]]],false]";
 						};
 					};
 				};
@@ -25450,13 +25450,13 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=2;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={71.488968,5.0014391,110.94986};
+						position[]={71.488998,5.0014391,110.95};
 					};
 					side="West";
 					flags=7;
@@ -25959,6 +25959,135 @@ class Mission
 							};
 						};
 						nAttributes=8;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={75.5,5.0014391,111.05};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						rank="CORPORAL";
+						description="Raven 1-3 UAV Operator";
+						isPlayable=1;
+					};
+					id=202;
+					type="B_BLUCW_UAV_Operator_01";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="Enh_featureType";
+							expression="_this setFeatureType parseNumber (_value)";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="0";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENGFRE";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="Enh_ambientAnimParams";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"ARRAY"
+										};
+									};
+									class value
+									{
+										items=2;
+										class Item0
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="";
+											};
+										};
+										class Item1
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="ASIS";
+											};
+										};
+									};
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 			};
@@ -32364,7 +32493,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_an_m14_th3";
+																	value="ACE_muzzle_mzls_L";
 																};
 															};
 															class Item395
@@ -32378,7 +32507,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_m67";
+																	value="rhsusf_acc_nt4_black";
 																};
 															};
 															class Item396
@@ -32392,7 +32521,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="ACE_muzzle_mzls_L";
+																	value="muzzle_snds_M";
 																};
 															};
 															class Item397
@@ -32406,7 +32535,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhsusf_acc_nt4_black";
+																	value="muzzle_snds_L";
 																};
 															};
 															class Item398
@@ -32420,7 +32549,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_M";
+																	value="ACE_M14";
 																};
 															};
 															class Item399
@@ -32434,7 +32563,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_L";
+																	value="HandGrenade";
 																};
 															};
 														};
@@ -38059,7 +38188,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_an_m14_th3";
+																	value="ACE_muzzle_mzls_L";
 																};
 															};
 															class Item395
@@ -38073,7 +38202,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_m67";
+																	value="rhsusf_acc_nt4_black";
 																};
 															};
 															class Item396
@@ -38087,7 +38216,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="ACE_muzzle_mzls_L";
+																	value="muzzle_snds_M";
 																};
 															};
 															class Item397
@@ -38101,7 +38230,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhsusf_acc_nt4_black";
+																	value="muzzle_snds_L";
 																};
 															};
 															class Item398
@@ -38115,7 +38244,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_M";
+																	value="ACE_M14";
 																};
 															};
 															class Item399
@@ -38129,7 +38258,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_L";
+																	value="HandGrenade";
 																};
 															};
 														};
@@ -43754,7 +43883,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_an_m14_th3";
+																	value="ACE_muzzle_mzls_L";
 																};
 															};
 															class Item395
@@ -43768,7 +43897,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_m67";
+																	value="rhsusf_acc_nt4_black";
 																};
 															};
 															class Item396
@@ -43782,7 +43911,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="ACE_muzzle_mzls_L";
+																	value="muzzle_snds_M";
 																};
 															};
 															class Item397
@@ -43796,7 +43925,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhsusf_acc_nt4_black";
+																	value="muzzle_snds_L";
 																};
 															};
 															class Item398
@@ -43810,7 +43939,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_M";
+																	value="ACE_M14";
 																};
 															};
 															class Item399
@@ -43824,7 +43953,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_L";
+																	value="HandGrenade";
 																};
 															};
 														};
@@ -52357,7 +52486,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_an_m14_th3";
+																	value="ACE_muzzle_mzls_L";
 																};
 															};
 															class Item395
@@ -52371,7 +52500,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhs_mag_m67";
+																	value="rhsusf_acc_nt4_black";
 																};
 															};
 															class Item396
@@ -52385,7 +52514,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="ACE_muzzle_mzls_L";
+																	value="muzzle_snds_M";
 																};
 															};
 															class Item397
@@ -52399,7 +52528,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="rhsusf_acc_nt4_black";
+																	value="muzzle_snds_L";
 																};
 															};
 															class Item398
@@ -52413,7 +52542,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_M";
+																	value="ACE_M14";
 																};
 															};
 															class Item399
@@ -52427,7 +52556,7 @@ class Mission
 																			"STRING"
 																		};
 																	};
-																	value="muzzle_snds_L";
+																	value="HandGrenade";
 																};
 															};
 														};
