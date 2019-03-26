@@ -1,0 +1,3 @@
+this addAction ["Move to Squad Rally Point","RallyPoint\teleport.sqf",[squadRP1],1,false,true,"","groupId(group sl1) == groupId(group _target)",4];
+this addAction ["Move to Squad Rally Point","RallyPoint\teleport.sqf",[squadRP2],1,false,true,"","groupId(group sl2) == groupId(group _target)",4];
+this addAction ["Move to Squad Rally Point","RallyPoint\teleport.sqf",[squadRP3],1,false,true,"","groupId(group sl3) == groupId(group _target)",4];
