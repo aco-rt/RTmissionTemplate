@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=130;
+		nextID=135;
 	};
 	class Camera
 	{
-		pos[]={80.533463,37.938293,-6.8898411};
-		dir[]={0.31964368,-0.48320046,0.81521779};
-		up[]={0.17642751,0.87515914,0.44996983};
-		aside[]={0.93113768,4.25287e-007,-0.36509031};
+		pos[]={76.102997,42.960819,79.228302};
+		dir[]={0.014039546,-0.92532343,0.37923577};
+		up[]={0.034220718,0.37903419,0.92447758};
+		aside[]={0.99947375,-4.1717867e-006,-0.03699626};
 	};
 };
 binarizationWanted=0;
@@ -27,7 +27,7 @@ addons[]=
 {
 	"A3_Props_F_Exp_A_Military_Equipment",
 	"A3_Modules_F",
-	"Desert",
+	"M2_Flamethrower_Balloons",
 	"A3_Weapons_F_Bootcamp_Ammoboxes",
 	"A3_Props_F_Exp_Military_Camps",
 	"A3_Modules_F_Multiplayer",
@@ -56,6 +56,7 @@ addons[]=
 	"acre_sys_radio",
 	"sup_vehiclespawn",
 	"A3_Ui_F",
+	"WW2_Core_c_IF_Gui_c",
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_Heli_Items_Airport",
 	"A3_Structures_F_Mil_BagFence",
@@ -68,6 +69,7 @@ addons[]=
 	"ace_refuel",
 	"A3_Structures_F_Mil_Fortification",
 	"CUP_Misc3_Config",
+	"WW2_Objects_c_Misc_WW2_SimpleObjects_c_CUP",
 	"RavPat_Config",
 	"A3_Structures_F_Bootcamp_VR_Helpers",
 	"A3_Supplies_F_Heli_CargoNets",
@@ -94,7 +96,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=43;
+		items=45;
 		class Item0
 		{
 			className="A3_Props_F_Exp_A";
@@ -111,8 +113,9 @@ class AddonsMetaData
 		};
 		class Item2
 		{
-			className="Desert";
-			name="Desert";
+			className="M2_Flamethrower_Balloons";
+			name="M2_Flamethrower_Balloons";
+			author="PhoenixSystems";
 		};
 		class Item3
 		{
@@ -253,134 +256,144 @@ class AddonsMetaData
 		};
 		class Item23
 		{
+			className="WW2_Core_c_IF_Gui_c";
+			name="WW2_Core_c_IF_Gui_c";
+		};
+		class Item24
+		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item26
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item26
+		class Item27
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item27
+		class Item28
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item28
+		class Item29
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
 		};
-		class Item29
+		class Item30
+		{
+			className="WW2_Objects_c_Misc_WW2_SimpleObjects_c_CUP";
+			name="WW2_Objects_c_Misc_WW2_SimpleObjects_c_CUP";
+		};
+		class Item31
 		{
 			className="RavPat_Config";
 			name="RavPat_Config";
 		};
-		class Item30
+		class Item32
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item33
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item32
+		class Item34
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item33
+		class Item35
 		{
 			className="acre_main";
 			name="ACRE2 - Main";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item34
+		class Item36
 		{
 			className="rhssaf_c_gear";
 			name="RHS: SAF gear configuration";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item35
+		class Item37
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item36
+		class Item38
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item37
+		class Item39
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item38
+		class Item40
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item39
+		class Item41
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item40
+		class Item42
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item41
+		class Item43
 		{
 			className="acre_sys_prc152";
 			name="ACRE2 - AN/PRC-152";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item42
+		class Item44
 		{
 			className="acex_field_rations";
 			name="ACEX - Field Rations";
@@ -24943,7 +24956,7 @@ class CustomAttributes
 		class Attribute1
 		{
 			property="Enh_ambientFlyby_speed";
-			expression="missionNamespace setVariable ['Enh_ambientFlyby_speed',_value]";
+			expression="missionNamespace setVariable ['Enh_AmbientFlyby_Speed',_value]";
 			class Value
 			{
 				class data
@@ -25205,7 +25218,7 @@ class Mission
 				class Attribute6
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -25245,7 +25258,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -25423,7 +25436,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -25480,7 +25493,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -25535,13 +25548,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={73.488968,5.0014391,110.94986};
+						position[]={73.488998,5.0014391,110.95};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Raven 1-2 Phalanx Medic";
 						isPlayable=1;
 					};
@@ -25552,7 +25566,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -25571,7 +25585,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -25590,7 +25604,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -25666,7 +25680,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -25716,7 +25730,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -25747,6 +25761,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Raven 1-3 UAV Operator";
 						isPlayable=1;
 					};
@@ -25757,7 +25772,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -25814,7 +25829,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -26058,7 +26073,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26099,7 +26114,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26175,7 +26190,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26216,7 +26231,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26257,7 +26272,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26299,7 +26314,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26358,7 +26373,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26399,7 +26414,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26476,7 +26491,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26527,7 +26542,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -26670,7 +26685,7 @@ class Mission
 								class Attribute1
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -32476,7 +32491,7 @@ class Mission
 								class Attribute1
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -38283,7 +38298,7 @@ class Mission
 								class Attribute1
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -43978,7 +43993,7 @@ class Mission
 								class Attribute1
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -44019,7 +44034,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -44061,7 +44076,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -44102,7 +44117,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -44143,7 +44158,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -44925,7 +44940,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -45951,7 +45966,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46367,7 +46382,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46426,7 +46441,7 @@ class Mission
 				class Attribute1
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46485,7 +46500,7 @@ class Mission
 				class Attribute1
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46544,7 +46559,7 @@ class Mission
 				class Attribute1
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46665,7 +46680,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46705,7 +46720,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -46762,7 +46777,7 @@ class Mission
 								class Attribute0
 								{
 									property="Enh_featureType";
-									expression="_this setFeatureType parseNumber (_value)";
+									expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 									class Value
 									{
 										class data
@@ -52593,7 +52608,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -52681,7 +52696,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -52738,7 +52753,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -52799,6 +52814,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Able 1-2 Autorifleman";
 						isPlayable=1;
 					};
@@ -52828,7 +52844,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -52885,7 +52901,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -52946,6 +52962,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Able 1-3 Section CLS";
 						isPlayable=1;
 					};
@@ -52975,7 +52992,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53032,7 +53049,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -53094,7 +53111,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{null = [this] execVM ""RallyPoint\WsquadRP1.sqf"";}";
+						init="call{null = [this] execVM ""RallyPoint\WsquadRP1.sqf""; null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Able 1-4 Element Leader";
 						isPlayable=1;
 					};
@@ -53124,7 +53141,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53181,7 +53198,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -53242,6 +53259,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Able 1-5 MAT";
 						isPlayable=1;
 					};
@@ -53271,7 +53289,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53328,7 +53346,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -53389,6 +53407,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Able 1-6 Combat Engineer";
 						isPlayable=1;
 					};
@@ -53418,7 +53437,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53475,7 +53494,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -53604,7 +53623,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53661,7 +53680,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -53722,6 +53741,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Baker 1-2 Autorifleman";
 						isPlayable=1;
 					};
@@ -53751,7 +53771,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53808,7 +53828,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -53869,6 +53889,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Baker 1-3 Section CLS";
 						isPlayable=1;
 					};
@@ -53898,7 +53919,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -53955,7 +53976,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54017,7 +54038,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{null = [this] execVM ""RallyPoint\WsquadRP2.sqf"";}";
+						init="call{null = [this] execVM ""RallyPoint\WsquadRP2.sqf""; null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Baker 1-4 Element Leader";
 						isPlayable=1;
 					};
@@ -54047,7 +54068,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -54104,7 +54125,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54165,6 +54186,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Baker 1-5 MAT";
 						isPlayable=1;
 					};
@@ -54194,7 +54216,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -54251,7 +54273,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54312,6 +54334,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Baker 1-6 Combat Engineer";
 						isPlayable=1;
 					};
@@ -54341,7 +54364,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -54398,7 +54421,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54527,7 +54550,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -54584,7 +54607,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54645,6 +54668,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Charlie 1-2 Autorifleman";
 						isPlayable=1;
 					};
@@ -54674,7 +54698,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -54731,7 +54755,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54792,6 +54816,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Charlie 1-3 Section CLS";
 						isPlayable=1;
 					};
@@ -54821,7 +54846,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -54878,7 +54903,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -54940,7 +54965,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						init="call{null = [this] execVM ""RallyPoint\WsquadRP3.sqf"";}";
+						init="call{null = [this] execVM ""RallyPoint\WsquadRP3.sqf""; null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Charlie 1-4 Element Leader";
 						isPlayable=1;
 					};
@@ -54970,7 +54995,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55027,7 +55052,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -55088,6 +55113,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Charlie 1-5 MAT";
 						isPlayable=1;
 					};
@@ -55117,7 +55143,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55174,7 +55200,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -55235,6 +55261,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Charlie 1-6 Combat Engineer";
 						isPlayable=1;
 					};
@@ -55264,7 +55291,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55321,7 +55348,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -55418,6 +55445,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Ad-Hoc Legionnaire";
 						isPlayable=1;
 					};
@@ -55447,7 +55475,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55466,7 +55494,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -55485,7 +55513,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -55504,7 +55532,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -55523,7 +55551,7 @@ class Mission
 						class Attribute5
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -55584,6 +55612,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Ad-Hoc Legionnaire";
 						isPlayable=1;
 					};
@@ -55613,7 +55642,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55632,7 +55661,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -55651,7 +55680,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -55670,7 +55699,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -55689,7 +55718,7 @@ class Mission
 						class Attribute5
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -55750,6 +55779,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Ad-Hoc Legionnaire";
 						isPlayable=1;
 					};
@@ -55779,7 +55809,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55798,7 +55828,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -55817,7 +55847,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -55836,7 +55866,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -55855,7 +55885,7 @@ class Mission
 						class Attribute5
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -55916,6 +55946,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Ad-Hoc Legionnaire";
 						isPlayable=1;
 					};
@@ -55945,7 +55976,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -55964,7 +55995,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -55983,7 +56014,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -56002,7 +56033,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -56021,7 +56052,7 @@ class Mission
 						class Attribute5
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -56082,6 +56113,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Ad-Hoc Legionnaire";
 						isPlayable=1;
 					};
@@ -56111,7 +56143,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -56130,7 +56162,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -56149,7 +56181,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -56168,7 +56200,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -56187,7 +56219,7 @@ class Mission
 						class Attribute5
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -56248,6 +56280,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Ad-Hoc Legionnaire";
 						isPlayable=1;
 					};
@@ -56277,7 +56310,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -56296,7 +56329,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -56315,7 +56348,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -56334,7 +56367,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -56353,7 +56386,7 @@ class Mission
 						class Attribute5
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -56451,6 +56484,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Designated Marksman";
 						isPlayable=1;
 					};
@@ -56480,7 +56514,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -56537,7 +56571,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -56628,13 +56662,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={73.488968,5.0014391,94.94986};
+						position[]={73.488998,5.0014391,94.950005};
 					};
 					side="West";
 					flags=6;
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="Anti-Materiel Rifleman";
 						isPlayable=1;
 					};
@@ -56664,7 +56699,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -56721,7 +56756,7 @@ class Mission
 						class Attribute4
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -56819,6 +56854,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="MMG Team Leader";
 						isPlayable=1;
 					};
@@ -56829,7 +56865,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -56848,7 +56884,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -56867,7 +56903,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -56943,7 +56979,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -56993,7 +57029,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -57023,6 +57059,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="MMG Asst. Gunner";
 						isPlayable=1;
 					};
@@ -57033,7 +57070,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -57052,7 +57089,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -57071,7 +57108,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -57147,7 +57184,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -57197,7 +57234,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -57227,6 +57264,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="MMG Gunner";
 						isPlayable=1;
 					};
@@ -57237,7 +57275,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -57256,7 +57294,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -57275,7 +57313,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -57351,7 +57389,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -57401,7 +57439,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -57468,6 +57506,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="ATGM Team Leader";
 						isPlayable=1;
 					};
@@ -57478,7 +57517,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -57497,7 +57536,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -57516,7 +57555,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -57592,7 +57631,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -57642,7 +57681,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -57672,6 +57711,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="ATGM Assistant Legionnaire";
 						isPlayable=1;
 					};
@@ -57682,7 +57722,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -57701,7 +57741,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -57720,7 +57760,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -57796,7 +57836,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -57846,7 +57886,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -57876,6 +57916,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="ATGM Legionnaire";
 						isPlayable=1;
 					};
@@ -57886,7 +57927,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -57905,7 +57946,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -57924,7 +57965,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -58000,7 +58041,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -58050,7 +58091,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -58116,6 +58157,7 @@ class Mission
 					flags=6;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="MANPAD Team Leader";
 						isPlayable=1;
 					};
@@ -58126,7 +58168,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -58145,7 +58187,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -58164,7 +58206,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -58240,7 +58282,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -58290,7 +58332,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -58320,6 +58362,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="MANPAD Assistant Legionnaire";
 						isPlayable=1;
 					};
@@ -58330,7 +58373,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -58349,7 +58392,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -58368,7 +58411,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -58444,7 +58487,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -58494,7 +58537,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -58524,6 +58567,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						description="MANPAD Legionnaire";
 						isPlayable=1;
 					};
@@ -58534,7 +58578,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -58553,7 +58597,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -58572,7 +58616,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -58648,7 +58692,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -58698,7 +58742,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -58765,6 +58809,7 @@ class Mission
 					class Attributes
 					{
 						rank="CAPTAIN";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 						aiRadarUsage=-1426178269;
 					};
@@ -58775,7 +58820,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -58794,7 +58839,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -58832,7 +58877,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -58908,7 +58953,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -58958,7 +59003,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -58989,6 +59034,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=157;
@@ -58998,7 +59044,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -59017,7 +59063,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -59055,7 +59101,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -59131,7 +59177,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -59181,7 +59227,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -59212,6 +59258,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=158;
@@ -59221,7 +59268,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -59240,7 +59287,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -59278,7 +59325,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -59354,7 +59401,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -59404,7 +59451,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -59435,6 +59482,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=159;
@@ -59444,7 +59492,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -59463,7 +59511,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -59501,7 +59549,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -59577,7 +59625,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -59627,7 +59675,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -59694,6 +59742,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=161;
@@ -59703,7 +59752,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -59722,7 +59771,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -59760,7 +59809,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -59836,7 +59885,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -59886,7 +59935,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -59917,6 +59966,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=162;
@@ -59926,7 +59976,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -59945,7 +59995,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -59983,7 +60033,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -60059,7 +60109,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -60109,7 +60159,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -60139,6 +60189,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=163;
@@ -60148,7 +60199,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -60167,7 +60218,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -60205,7 +60256,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -60281,7 +60332,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -60331,7 +60382,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -60361,6 +60412,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
+						init="call{null = [this] execVM ""RallyPoint\WplatoonRP_SL.sqf"";}";
 						isPlayable=1;
 					};
 					id=164;
@@ -60370,7 +60422,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -60389,7 +60441,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -60427,7 +60479,7 @@ class Mission
 						class Attribute3
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -60503,7 +60555,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -60553,7 +60605,7 @@ class Mission
 						class Attribute8
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -60721,7 +60773,7 @@ class Mission
 						class Attribute0
 						{
 							property="Enh_onDamagedEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['dammaged',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['dammaged',_value]}";
 							class Value
 							{
 								class data
@@ -60740,7 +60792,7 @@ class Mission
 						class Attribute1
 						{
 							property="Enh_onRespawnEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['respawn',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['respawn',_value]}";
 							class Value
 							{
 								class data
@@ -60759,7 +60811,7 @@ class Mission
 						class Attribute2
 						{
 							property="Enh_onKilledEvent";
-							expression="if !(_value == 'false') then {_this addEventHandler ['killed',_value]}";
+							expression="if (_value != 'false') then {_this addEventHandler ['killed',_value]}";
 							class Value
 							{
 								class data
@@ -60835,7 +60887,7 @@ class Mission
 						class Attribute6
 						{
 							property="Enh_ambientAnimParams";
-							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if (!(_value select 0 == '') && !isMultiplayer) then		{			[_unit,_value select 0,_value select 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
+							expression="	if (is3DEN) then {_this call BIS_fnc_ambientAnim__terminate};	[_this,_value] spawn	{		sleep 0.1;		params ['_unit','_value'];		if ((_value # 0 != '') && !isMultiplayer) then		{			[_unit,_value # 0,_value # 1,objNull,false,false] call BIS_fnc_ambientAnim;			waitUntil {sleep 0.1; ((behaviour _unit) == 'COMBAT') || (damage _unit > 0.6)};			_unit call BIS_fnc_ambientAnim__terminate;		};	}";
 							class Value
 							{
 								class data
@@ -60885,7 +60937,7 @@ class Mission
 						class Attribute7
 						{
 							property="Enh_featureType";
-							expression="_this setFeatureType parseNumber (_value)";
+							expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 							class Value
 							{
 								class data
@@ -61083,7 +61135,7 @@ class Mission
 				class Attribute1
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
@@ -61262,7 +61314,7 @@ class Mission
 				class Attribute0
 				{
 					property="Enh_featureType";
-					expression="_this setFeatureType parseNumber (_value)";
+					expression="if (_value isEqualType 0) then {_this setFeatureType _value}; if (_value isEqualType 'STRING') then {_this setFeatureType parseNumber _value}";
 					class Value
 					{
 						class data
