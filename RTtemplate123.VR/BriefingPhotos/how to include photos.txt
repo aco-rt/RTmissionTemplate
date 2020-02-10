@@ -1,0 +1,7 @@
+Drop a .jpeg or .jpg here.  It should be really no bigger than 256x256 (though taller or "portrat" style will still work).  ARMA won't re-size the photos in the briefing, so if they're bigger, they'll simply go right off the edge of the briefing window and look terrible, while still chewing up all that sweet, sweet file size.
+
+Where, in the briefing, you want the photo, include this:
+
+<img image='BriefingPhotos\XXXXX.jpg'/> <br/><br/>
+
+of course, changing the XXXXX.jpg to whatever your file name is.  That's it!

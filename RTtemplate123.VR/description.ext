@@ -1,0 +1,22 @@
+//  https://community.bistudio.com/wiki/Description.ext
+
+//Allows access to the Debug Console outside of the editor during normal gameplay.0 = Default behavior, available only in editor, 1 = Available in SP and for hosts / logged in admins, 2 = Available for everyone
+enableDebugConsole = 1;
+
+//--- Respawn (THIS OVERRIDES WHAT YOU SET IN THE EDEN EDITOR)
+//  Check out https://community.bistudio.com/wiki/Arma_3_Respawn for info
+respawn = 3;
+respawnDelay = 180;
+respawnOnStart = -1;
+respawnTemplates[] = {"MenuPosition", "Spectator", "Tickets"};
+
+//Disable chat options
+disableChannels[]={{0,false,true},{1,true,true},{2,true,true},{3,false,true},{4,true,true},{5,false,true},{6,true,true}};
+
+// This will make it so no AI appear when slotting
+disabledai=1;
+
+// Show date/time while loading mission.
+onLoadMissionTime = 1;
+
+aiKills = 0;
