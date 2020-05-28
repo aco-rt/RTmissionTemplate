@@ -10,6 +10,6 @@ _dir = random 359;
 
 "test" cutText ["", "BLACK", 0.5, true];
 sleep 1;
-
-player SetPos [(getPos _dest select 0)-2*sin(_dir),(getPos _dest select 1)-2*cos(_dir)];
+player setVehiclePosition [(_dest modelToWorld[0,2,0]), [],1, "CAN_COLLIDE"];
+//player SetPos [(getPos _dest select 0)-2*sin(_dir),(getPos _dest select 1)-2*cos(_dir)];
 "test" cutFadeout 2;

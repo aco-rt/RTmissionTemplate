@@ -10,7 +10,7 @@ waitUntil {!isNull player};
 			if(count _num >2) then
 				{
 					[player] call ace_common_fnc_goKneeling; [player, "AinvPknlMstpSnonWnonDnon_medic_1",1] call ace_common_fnc_doAnimation;
-					[40,[],{RP_west SetPos (player modeltoworld [0,3,0]); hint "Rally Point Deployed"},{hint "Deploying interrupted"},"Deploying Rally point"] call ace_common_fnc_progressBar
+					[40,[],{RP_west setVehiclePosition [(player modelToWorld[0,2,0]), [],0.5, "CAN_COLLIDE"]; wsquadRP1 setVehiclePosition [(player modelToWorld[1.5,1.5,0]), [],0.2, "CAN_COLLIDE"]; wsquadRP2 setVehiclePosition [(player modelToWorld[-1.5,3,0]), [],0.2, "CAN_COLLIDE"]; wsquadRP3 setVehiclePosition [(player modelToWorld[-1.5,1,0]), [],0.2, "CAN_COLLIDE"]; hint "Rally Point Deployed";"RPMARK_1" setmarkerpos player;},{hint "Deploying interrupted"},"Deploying Rally point"] call ace_common_fnc_progressBar
 				}
 			else
 				{

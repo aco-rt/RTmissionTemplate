@@ -10,7 +10,7 @@ disableUserInput true;
 "retreat" cutText ["Retreating", "BLACK", 1, true];
 sleep 2;
 player SetPos (getPos _dest);
-//player SetPos [(getPos _dest select 0)-1*sin(_dir),(getPos _dest select 1)-1*cos(_dir)];
+//player setVehiclePosition [(_dest modelToWorld[(0+1*sin(_dir)),(0+1*cos(_dir)),0]), [],1, "CAN_COLLIDE"];
 call ace_medical_treatment_fnc_fullHeal;
 _rettime = 60;
 while {_rettime>0} do {
